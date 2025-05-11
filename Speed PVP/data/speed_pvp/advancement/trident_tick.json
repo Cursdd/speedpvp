@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "trident_tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "trident_tick"
+    ]
+  ],
+  "rewards": {
+    "function": "speed_pvp:trident_entity/get_speed/0"
+  }
+}

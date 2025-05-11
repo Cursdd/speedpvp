@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "tridentattack": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:trident"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "tridentattack"
+    ]
+  ],
+  "rewards": {
+    "function": "speed_pvp:damage/set_tag"
+  }
+}

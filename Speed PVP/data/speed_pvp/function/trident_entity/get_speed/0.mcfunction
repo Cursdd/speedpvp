@@ -1,0 +1,1 @@
+execute as @e[type=trident,tag=trident] at @s run function speed_pvp:trident_entity/get_speed/1

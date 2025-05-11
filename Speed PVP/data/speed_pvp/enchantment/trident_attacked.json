@@ -1,0 +1,39 @@
+{
+  "exclusive_set": "minecraft:riptide",
+  "weight": 1,
+  "anvil_cost": 0,
+  "description": "Entity Speed",
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "minecraft:trident",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "speed_pvp:trident_entity/set_speed"
+        },
+        "enchanted": "attacker",
+        "affected": "damaging_entity"
+      }
+    ],
+    "minecraft:projectile_spawned": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "speed_pvp:trident_entity/trident_summoned"
+        }
+      }
+    ]
+  }
+}

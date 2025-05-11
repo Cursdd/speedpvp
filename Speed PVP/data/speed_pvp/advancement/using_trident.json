@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "used_trident": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "weapon.mainhand": {
+                      "items": "minecraft:trident",
+                      "components": {
+                        "minecraft:enchantments": {
+                          "levels": {
+                            "minecraft:riptide": 3
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "item": {
+          "items": "minecraft:trident"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "used_trident"
+    ]
+  ],
+  "rewards": {
+    "function": "speed_pvp:test"
+  }
+}

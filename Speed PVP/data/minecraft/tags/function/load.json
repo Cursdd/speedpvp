@@ -1,0 +1,7 @@
+{
+    "values": [
+    	"speed_pvp:load",
+        "distance:load",
+        "player_motion:internal/technical/load"
+    ]
+}

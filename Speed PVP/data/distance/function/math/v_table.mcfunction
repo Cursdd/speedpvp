@@ -1,0 +1,1 @@
+$execute store result score @s speed_pvp.speed run data get storage v arr[$(tan)]

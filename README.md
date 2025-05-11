@@ -12,7 +12,7 @@ SpeedPVP aims to revamp minecraft's combat system by directly linking player spe
   -   Riptide: Now deals massive damage on contact
   -   Loyalty: On hit, the victim entity will momentarily ride the trident
 ### Combat
-- Damage now scales with speed, using on the formula `damage = weapon_damage * (1 + scaled_speed)`
+- Damage now scales with speed, using on the formula `damage = weapon_damage * attack_cooldown * (1 + scaled_speed)`
   - Scaled speed depends on the weapon. Currently, the default is `0.0001`, however the following weapons have different values:
     - Loyalty Tridents have a scale of `0.000015` if their projectile speed is > 100. This is due to them dealing massive amounts of damage in the first few ticks of release
-- Knockback also scales with speed, using the formula `knockback = weapon_knockback + speed * 0.05`
+- Knockback also scales with speed, using the formula `knockback = weapon_knockback + attack_cooldown * speed * 0.05`

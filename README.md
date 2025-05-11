@@ -4,9 +4,9 @@ SpeedPVP aims to revamp minecraft's combat system by directly linking player spe
 ## Features
 ### Movement
 - Dash: Sneak once on the ground to initiate the dash. Sneak again to dash forward.
-- (Planned) Wall Climb: Sneak and hold jump while being direction in front of a block to wall climb. Doing this can also initiate your dash.
+- (Planned) Wall Climb: Sneak and hold jump while being directly in front of a block to wall climb. Doing this can also initiate your dash.
 - (Planned) Wall Run: Hold jump while adjacent to a wall to wallrun.
-- (Planned) Wall Jump: While wall running, let go of jump to perform a wallrun. This will push you foward and opposite of the horizontal direction you're facing
+- (Planned) Wall Jump: While wall running, let go of jump to perform a wallrun. This will push you forward, up, and opposite of the horizontal direction you're facing
 ### Weapons
 - Trident: Tridents now behave slightly differently with both Riptide and Loyalty
   -   Riptide: Now deals massive damage on contact
